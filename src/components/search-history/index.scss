@@ -1,0 +1,36 @@
+.search-history {
+  &-no-record {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: #8d8d8d;
+  }
+  &-item {
+    margin: 24px;
+    padding-bottom: 6px; 
+    border-bottom: 1px solid #ddd;
+
+    &-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: auto 0;
+    }
+
+    &-label {
+      display: flex;
+      flex-direction: row;
+      margin: auto 0;
+      font-size: 16px;
+      font-weight: 500;
+      color: #5b5b5b;
+    }
+
+    &-action {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      margin: auto 0;
+    }
+  }
+}

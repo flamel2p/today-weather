@@ -1,0 +1,28 @@
+.result {
+  padding: 16px;
+
+  &-container {
+    width: fit-content;
+    border: 2px solid #b1d0fb;
+    border-radius: 8px;
+    padding: 24px;
+  }
+
+  &-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #8d8d8d;
+    line-height: 24px;
+
+    &.light {
+          font-weight: 400;
+    }
+  }
+
+  &-weather {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1677ff;
+    line-height: 60px;
+  }
+}
